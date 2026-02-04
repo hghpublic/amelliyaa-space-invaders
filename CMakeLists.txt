@@ -7,7 +7,8 @@ set(CMAKE_CXX_STANDARD 20)
 include(FetchContent)
 FetchContent_Declare(
         Intel8080
-        GIT_REPOSITORY "https://github.com/encephalalgia/intel8080.git"
+        GIT_REPOSITORY "https://github.com/hghpublic/amelliyaa-intel8080.git"
+        GIT_TAG        dev/0
 )
 set(INTEL8080_TESTS OFF)
 message(STATUS "Fetching Intel 8080 core...")
