@@ -6,3 +6,9 @@ assets/roms/invaders.*
 assets/sound/*.wav
 assets/sound/*.mpeg
 assets/hiscore.dat
+
+# macos
+.DS_Store
+
+# cmake
+/build/
